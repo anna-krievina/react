@@ -13,7 +13,7 @@ function App() {
           </div>
           <footer>
               <span>Made by Anna Krieviņa </span>
-              <a className="App-link"
+              <a className="App-link" rel="noreferrer"
                  href="https://github.com/anna-krievina/react"
                  target="_blank">
                   Project source on github

@@ -9,13 +9,12 @@ function Video ({url}) {
                 allow='autoplay; encrypted-media'
                 allowFullScreen
                 title='video'
+                rel="noreferrer"
         />
     );
 }
 
 function Videos() {
-    const pictures = [];
-    let stringTest = "3";
     return (
         <div>
             <Video url="https://www.youtube.com/embed/ZRtdQ81jPUQ" />

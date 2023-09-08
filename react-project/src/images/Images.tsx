@@ -9,15 +9,13 @@ import purpleStars from "./img/purple_stars.jpg";
 // @ts-ignore
 function Image({ imgSource }) {
     return (
-        <a target="_blank" href={imgSource}>
+        <a target="_blank" rel="noreferrer" href={imgSource}>
             <img src={imgSource} />
         </a>
     );
 }
 
 function Images() {
-    const pictures = [];
-    let stringTest = "3";
     return (
         <div>
             <Image imgSource={blueFlower} />
