@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #458293;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.footer {
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+

@@ -11,7 +11,7 @@ function App() {
               <Images />
               <Videos />
           </div>
-          <footer>
+          <footer className="footer">
               <span>Made by Anna Krieviņa </span>
               <a className="App-link" rel="noreferrer"
                  href="https://github.com/anna-krievina/react"
